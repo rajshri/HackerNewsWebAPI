@@ -11,7 +11,7 @@ Framework: .NET Core 5.0
 Visual Studio : 2019
 Entry point: `./HackerNewsAPI.sln`
 Swagger URL: <base address>/swagger/index.html
-Endpoint URL: <base address>/BestStories/20
+Endpoint URL: <base address>/BestStories/200
 
 ------------Assumptions------------
 1. API should be able to efficiently service large numbers of requests without risking overloading of the Hacker News API
@@ -25,13 +25,10 @@ Endpoint URL: <base address>/BestStories/20
 --------Testing the API--------
 Open `HackerNewsAPI.sln` in Visual Studio and then run (F5) "HackerNewsClient.Api" project.
 
---Swagger--: you can test requests via swagger web page: <base url>/swagger/index.html
-
 Integration test project is added
 
-
 ---------Next features--------
-There is a good practices to enhance the service. The main improvement points are:
+The main improvement points are:
 Implementation of Global exception handler and logging.
 
 
